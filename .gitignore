@@ -1,0 +1,58 @@
+# =========================
+# ROOT
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# BACKEND (Python / Django)
+# =========================
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+
+backend/db.sqlite3
+
+# Django stuff
+backend/staticfiles/
+backend/media/
+
+# Environment variables
+backend/.env
+backend/.env.*
+
+# Logs
+backend/*.log
+
+# =========================
+# FRONTEND (React + Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+
+# Vite cache
+frontend/.vite/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS FILES
+# =========================
+*.swp
+*.swo
